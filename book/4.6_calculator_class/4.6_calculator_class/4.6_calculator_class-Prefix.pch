@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '4.6_calculator_class' target in the '4.6_calculator_class' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

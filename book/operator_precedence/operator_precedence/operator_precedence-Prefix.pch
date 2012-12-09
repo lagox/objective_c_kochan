@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'operator_precedence' target in the 'operator_precedence' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
