@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'factorial_ex' target in the 'factorial_ex' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

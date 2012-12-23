@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCFA9F67167B3D0000785A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFA9F66167B3D0000785A18 /* Foundation.framework */; };
+		BCFA9F6A167B3D0000785A18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA9F69167B3D0000785A18 /* main.m */; };
+		BCFA9F6E167B3D0000785A18 /* __5_nested_for.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCFA9F6D167B3D0000785A18 /* __5_nested_for.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCFA9F60167B3D0000785A18 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BCFA9F6E167B3D0000785A18 /* __5_nested_for.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BCFA9F62167B3D0000785A18 /* 5.5_nested_for */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 5.5_nested_for; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFA9F66167B3D0000785A18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCFA9F69167B3D0000785A18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCFA9F6C167B3D0000785A18 /* 5.5_nested_for-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5.5_nested_for-Prefix.pch"; sourceTree = "<group>"; };
+		BCFA9F6D167B3D0000785A18 /* __5_nested_for.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = __5_nested_for.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCFA9F5F167B3D0000785A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFA9F67167B3D0000785A18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCFA9F57167B3D0000785A18 = {
+			isa = PBXGroup;
+			children = (
+				BCFA9F68167B3D0000785A18 /* 5.5_nested_for */,
+				BCFA9F65167B3D0000785A18 /* Frameworks */,
+				BCFA9F63167B3D0000785A18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCFA9F63167B3D0000785A18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCFA9F62167B3D0000785A18 /* 5.5_nested_for */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCFA9F65167B3D0000785A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCFA9F66167B3D0000785A18 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCFA9F68167B3D0000785A18 /* 5.5_nested_for */ = {
+			isa = PBXGroup;
+			children = (
+				BCFA9F69167B3D0000785A18 /* main.m */,
+				BCFA9F6D167B3D0000785A18 /* __5_nested_for.1 */,
+				BCFA9F6B167B3D0000785A18 /* Supporting Files */,
+			);
+			path = 5.5_nested_for;
+			sourceTree = "<group>";
+		};
+		BCFA9F6B167B3D0000785A18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCFA9F6C167B3D0000785A18 /* 5.5_nested_for-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCFA9F61167B3D0000785A18 /* 5.5_nested_for */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFA9F71167B3D0000785A18 /* Build configuration list for PBXNativeTarget "5.5_nested_for" */;
+			buildPhases = (
+				BCFA9F5E167B3D0000785A18 /* Sources */,
+				BCFA9F5F167B3D0000785A18 /* Frameworks */,
+				BCFA9F60167B3D0000785A18 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 5.5_nested_for;
+			productName = 5.5_nested_for;
+			productReference = BCFA9F62167B3D0000785A18 /* 5.5_nested_for */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCFA9F59167B3D0000785A18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Yerlan Kussainov";
+			};
+			buildConfigurationList = BCFA9F5C167B3D0000785A18 /* Build configuration list for PBXProject "5.5_nested_for" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCFA9F57167B3D0000785A18;
+			productRefGroup = BCFA9F63167B3D0000785A18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCFA9F61167B3D0000785A18 /* 5.5_nested_for */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCFA9F5E167B3D0000785A18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFA9F6A167B3D0000785A18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCFA9F6F167B3D0000785A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BCFA9F70167B3D0000785A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BCFA9F72167B3D0000785A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "5.5_nested_for/5.5_nested_for-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCFA9F73167B3D0000785A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "5.5_nested_for/5.5_nested_for-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCFA9F5C167B3D0000785A18 /* Build configuration list for PBXProject "5.5_nested_for" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFA9F6F167B3D0000785A18 /* Debug */,
+				BCFA9F70167B3D0000785A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCFA9F71167B3D0000785A18 /* Build configuration list for PBXNativeTarget "5.5_nested_for" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFA9F72167B3D0000785A18 /* Debug */,
+				BCFA9F73167B3D0000785A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCFA9F59167B3D0000785A18 /* Project object */;
+}

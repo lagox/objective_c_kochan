@@ -14,6 +14,7 @@
 -(void) setDenominator: (int) n;
 -(int) numerator;
 -(int) denominator;
+-(double) convertToNum;
 @end
 
 @implementation Fraction
@@ -41,6 +42,14 @@
 {
     return denominator;
 }
+-(double) convertToNum
+{
+    if (denominator != 0) {
+        return (double) numerator / denominator;
+    } else {
+        return NAN;
+    }
+}
 @end
 
 
@@ -58,6 +67,11 @@ int main(int argc, const char * argv[])
         [myFraction setNumerator:4];
         [myFraction setDenominator:5];
         NSLog(@"The value of myFraction: %i/%i", [myFraction numerator], [myFraction denominator]);
+        
+        Fraction *bFraction = [Fraction new];
+        [bFraction setNumerator:10];
+        [bFraction setDenominator:3];
+        NSLog(@"Result of convertToNum: %g", [bFraction convertToNum]);
         
     }
     return 0;

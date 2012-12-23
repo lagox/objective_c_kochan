@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '5.5_nested_for' target in the '5.5_nested_for' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

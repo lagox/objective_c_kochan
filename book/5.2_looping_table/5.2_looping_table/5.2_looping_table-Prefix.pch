@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '5.2_looping_table' target in the '5.2_looping_table' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
